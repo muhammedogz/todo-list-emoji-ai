@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# A TODO App with AI Generated Emoji
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Inspired by Fatih Kadir Akın's speech at [DIVA](https://kommunity.com/kadinyazilimci/events/diva-dive-into-ai-20638ad7)
 
-Currently, two official plugins are available:
+## How to run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You should add your own OpenAI API key to `.env` file.
 
-## Expanding the ESLint configuration
+after
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+npm i
+npm run dev
 
-- Configure the top-level `parserOptions` property like this:
+## Contributors
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# todo-list-emoji-ai
-# todo-list-emoji-ai
-# todo-list-emoji-ai
+- [Ayşegül Aydoğan](https://github.com/ayseglaydgan)
+- [Muhammed Oğuz](https://github.com/muhammedogz)
